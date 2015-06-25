@@ -1,4 +1,4 @@
-# presenters
+# Presenters
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/league/presenters.svg?style=flat-square)](https://packagist.org/packages/sebastian-berc/presenters)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
