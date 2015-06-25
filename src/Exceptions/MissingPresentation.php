@@ -20,8 +20,8 @@ class MissingPresentation extends \Exception
             'Call to undefined method %s::%s in %s on line %s',
             $debug['class'],
             $debug['function'],
-            $debug['file'],
-            $debug['line']
+            isset($debug['file']) ? $debug['file'] : 'unknown file',
+            isset($debug['line']) ? $debug['line'] : 'unknown line'
         );
 
         parent::__construct($error);
