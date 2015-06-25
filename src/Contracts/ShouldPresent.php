@@ -13,6 +13,13 @@ use SebastianBerc\Presenters\Presenter;
 interface ShouldPresent
 {
     /**
+     * Return presenter full classname.
+     *
+     * @return string
+     */
+    public function presenter();
+
+    /**
      * Return instance of presenter.
      *
      * @return Presenter

@@ -50,5 +50,7 @@ abstract class Presenter
         if (isset($this->entity[$parameter])) {
             return $this->entity[$parameter];
         }
+
+        return null;
     }
 }
