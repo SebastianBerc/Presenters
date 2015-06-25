@@ -2,8 +2,6 @@
 
 namespace SebastianBerc\Presenters\Test;
 
-use SebastianBerc\Presenters\Presenter;
-
 /**
  * Class PresenterTest
  *
