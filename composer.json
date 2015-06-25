@@ -1,8 +1,9 @@
 {
     "name": "sebastian-berc/presenters",
-    "description": ":package_description",
+    "description": "Simple library to make a presenters for objects.",
     "keywords": [
-        "presenters"
+        "presenters",
+        "presenter"
     ],
     "homepage": "https://github.com/SebastianBerc/presenters",
     "license": "MIT",
