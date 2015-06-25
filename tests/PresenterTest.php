@@ -2,6 +2,8 @@
 
 namespace SebastianBerc\Presenters\Test;
 
+use SebastianBerc\Presenters\Presenter;
+
 /**
  * Class PresenterTest
  *
@@ -59,8 +61,12 @@ class Person implements \SebastianBerc\Presenters\Contracts\ShouldPresent
 {
     use \SebastianBerc\Presenters\Traits\Presentable;
 
-    protected $presenter = PersonPresenter::class;
     public $firstName = 'sebastian';
     public $lastName = 'berc';
     public $email = 'contact@sebastian-berc.pl';
+
+    public function presenter()
+    {
+        return PersonPresenter::class;
+    }
 }
