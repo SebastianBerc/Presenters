@@ -1,0 +1,42 @@
+{
+    "name": "sebastian-berc/presenters",
+    "description": ":package_description",
+    "keywords": [
+        "presenters"
+    ],
+    "homepage": "https://github.com/SebastianBerc/presenters",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Berć",
+            "email": "contact@sebastian-berc.pl",
+            "homepage": "http://www.sebastian-berc.pl/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SebastianBerc\\Presenters\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SebastianBerc\\Presenters\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.1-dev"
+        }
+    }
+}
